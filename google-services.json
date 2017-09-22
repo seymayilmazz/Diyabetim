@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "496265856898",
+    "firebase_url": "https://diyabetim-8f9fd.firebaseio.com",
+    "project_id": "diyabetim-8f9fd",
+    "storage_bucket": "diyabetim-8f9fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496265856898:android:a575ce6ea9cbba78",
+        "android_client_info": {
+          "package_name": "com.tibbiodev.diyabetim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496265856898-fi68r79bi98oa46vsbcpu8ekd1ds6i9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tibbiodev.diyabetim",
+            "certificate_hash": "A8D06EC43FD5B9ECF615D032DE6C433C2C7B96B5"
+          }
+        },
+        {
+          "client_id": "496265856898-ecvlbki93sdtpp5a8lb36us0s1khdqej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoj41G_amDIVQowZ3UrFv5ZLDi5T90XlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496265856898-ecvlbki93sdtpp5a8lb36us0s1khdqej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

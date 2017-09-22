@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baslangic_background"
+    android:fitsSystemWindows="true"
+    tools:context="com.tibbiodev.diyabetim.activities.BaslangicActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="diyabetim"
+            android:textColor="#ffffff"
+            android:textSize="54dp"
+            android:id="@+id/textView2"
+            android:layout_marginTop="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="Telefon"
+            android:textColorHint="#d6d1d1d1"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:inputType="text"
+            android:id="@+id/editTextTelefon"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GİRİŞ YAP"
+            android:id="@+id/btnGirisYap"
+            android:layout_below="@+id/editTextAdSoyad"
+            android:layout_alignLeft="@+id/editTextTelefon"
+            android:layout_alignStart="@+id/editTextTelefon"
+            android:layout_marginTop="25dp"
+            android:layout_alignRight="@+id/editTextTelefon"
+            android:layout_alignEnd="@+id/editTextTelefon" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ad Soyad"
+            android:textColorHint="#d6d1d1d1"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:inputType="text"
+            android:id="@+id/editTextAdSoyad"
+            android:layout_below="@+id/editTextTelefon"
+            android:layout_marginTop="15dp"
+            android:layout_alignRight="@+id/editTextTelefon"
+            android:layout_alignEnd="@+id/editTextTelefon"
+            android:layout_alignLeft="@+id/editTextTelefon"
+            android:layout_alignStart="@+id/editTextTelefon" />
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView3"
+            android:background="@drawable/shape_circle_red"
+            android:layout_below="@+id/btnGirisYap"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

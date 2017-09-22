@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Diyabetim</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="yaklasan_olaylar">Yaklaşan Olaylar</string>
+    <string name="seker_olcumlerim">Şeker Ölçümlerim</string>
+    <string name="insulin_saatlerim">İnsülin Saatlerim</string>
+    <string name="ilac_saatlerim">İlaç Saatlerim</string>
+    <string name="title_activity_ayarlar">Ayarlar</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Bilgilerimi Düzenle</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Kişi İsmi</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    /* general */
+    <string name="dialog_yes_button">Evet</string>
+    <string name="dialog_no_button">Hayır</string>
+    <string name="dialog_cancel_button">İptal</string>
+
+    /* logout */
+    <string name="dialog_logout_message">Oturumu kapatmak istediğinizden emin misiniz?</string>
+    <string name="dialog_delete_message"> öğeyi silmek istediğinizden emin misiniz?</string>
+    <string name="besin_tablosu_tanitim">Besin tablosu, besinlerin Glisemik İndeks ve Glisemik Yük değerlerinin gösterildiği bir tablodur.</string>
+    <string name="glisemik_indeks_besin_tablo_yazi">Glisemik indeks besinlerin kan şekerini yükseltme hızını gösteren değerdir. Bir besinin glisemik indeks değeri ne kadar yüksekse kan şekeri yükseltme hızıda o kadar yüksektir.</string>
+
+    <string name="seker_olcum_tip_1">Açlık Kan Şekeri</string>
+    <string name="seker_olcum_tip_2">Tokluk Kan Şekeri</string>
+    <string name="seker_olcum_tipi_sec">Şeker Ölçüm Tipi</string>
+    <string name="seker_olcum">Şeker Ölçüm</string>
+
+    <string-array name="blood_sugar_dialog">
+        <item>@string/seker_olcum_tip_1</item>
+        <item>@string/seker_olcum_tip_2</item>
+    </string-array>
+
+    <string name="seker_olcum_deger_title">Şeker Ölçüm Değeri</string>
+    <string name="seker_olcum_deger_subtitle">Ölçtüğünüz şeker değerini girin</string>
+
+    <string name="seker_olcum_tip_title">Ölçüm Tipi</string>
+    <string name="seker_olcum_tip_subtitle">Ölçüm tipini seçin</string>
+
+    <string name="seker_olcum_tarih_title">Ölçüm Tarihi</string>
+    <string name="seker_olcum_saat_title">Ölçüm Saati</string>
+    <string name="seker_olcum_yemek_saati_title">Yemek Saati</string>
+    <string name="seker_olcum_yemek_saati_subtitle">Tokluk kan şekeri seçilmisse yemek saati girilmelidir</string>
+
+    <string name="giris_yapilmamis">Giriş Yapılmamış</string>
+    <string name="secim_yapilmamis">Seçim Yapılmamış</string>
+    <string name="otomatik_ayarlanir">Otomatik Ayarlanır</string>
+    <string name="gerekli_degil">Gerekli Değil</string>
+    <string name="gerekli">Gerekli</string>
+    <string name="kaydet">Kaydet</string>
+
+    <string name="seker_olcum_normal">Kan Şekeri Seviyesi Normal</string>
+    <string name="seker_olcum_yuksek">Kan Şekeri Seviyesi Yüksek</string>
+    <string name="seker_olcum_dusuk">Kan Şekeri Seviyesi Düşük</string>
+    <string name="seker_olcum_analiz_yapilamadi">Analiz Yapılamadı</string>
+    <string name="seker_olcum_analiz_yapilamadi_tok">Ölçüm Yemekten 2 Saat Sonra Yapılmalı</string>
+    <string name="sil">Sil</string>
+
+    <string name="silme_basarili">Öğeler başarıyla silindi</string>
+    <string name="silme_basarili_item">Öğe başarıyla silindi</string>
+    <string name="duzenleme_basarili_item">Öğe başarıyla düzenlendi</string>
+
+    <string name="insulin_saati_ekle">İnsülin Saati Ekle</string>
+    <string name="ilac_saati_ekle">İlaç Saati Ekle</string>
+    <string name="ilac_saati_duzenle">İlaç Saati Düzenle</string>
+    <string name="insulin_saati_duzenle">İnsülin Saati Düzenle</string>
+    <string name="not_bos_olamaz">Not kısmı boş olamaz</string>
+    <string name="basariyla_kaydedildii">Saat başarıyla kaydedildi</string>
+    <string name="yapilmasi_gerekenler">Yapılması Gerekenler</string>
+    <string name="gerceklestirilen_olaylar">Gerçekleştirilen Olaylar</string>
+    <string name="bekleyen_olaylar">Bekleyen Olaylar</string>
+
+    <string name="insulin_saat">İnsülin Saati</string>
+    <string name="ilac_saat">İlaç Saati</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\1.7.2\112366d8158749e25532ebce162232c6e0fb20a5\gson-1.7.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="112366d8158749e25532ebce162232c6e0fb20a5">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-1.7.2_13787383c164db2e3c0b90e12f1c11a3f1109b3d\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_fb2dcf249a39171c4f9a446f3c67ad01f8d50357\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_d964b8a0be5f3dfd350fe1431b15f6a352535d50\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.1_9d9625a206618c347199530bf65bd720ad35aad0\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.1_e5869dbd210219a2b06ce01b038c7ab86ea34c76\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e14a90849dfbd27a1b971019bdb75d97b207af05">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fd7f5d6d50b6cd93b8ced5587d1e9f3fee448049\classes.dex" />
+    </item>
+    <item
+        jar="F:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_e27230a140638edc0d7fb073b36ef5ca81b39512\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_05b728a2c630a778976d6c246209eabba086b771\classes.dex" />
+    </item>
+    <item
+        jar="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3270f95bb57dcadd2768844d68a2d8b0d424a288">
+        <dex dex="F:\workspace\AndroidStudio\School\tibbi\Diyabetim\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_51ba8282ab6fc0c8832ccdeb51ac35cb2bc1de23\classes.dex" />
+    </item>
+
+</items>

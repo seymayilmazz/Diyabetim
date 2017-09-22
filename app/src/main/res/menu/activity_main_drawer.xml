@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_yaklasan_olaylar"
+            android:icon="@drawable/ic_access_time_black_48dp"
+            android:title="@string/yaklasan_olaylar" />
+        <!--
+                <item
+                    android:id="@+id/nav_bekleyen_olaylar"
+                    android:icon="@drawable/ic_priority_high_black_48dp"
+                    android:title="@string/bekleyen_olaylar" />
+
+
+                <item
+                    android:id="@+id/nav_gerceklestirilen_olaylar"
+                    android:icon="@drawable/ic_done_all_black_48dp"
+                    android:title="@string/gerceklestirilen_olaylar" />
+                -->
+        <item
+            android:id="@+id/nav_seker_olcumlerim"
+            android:icon="@drawable/ic_opacity_black_48dp"
+            android:title="@string/seker_olcumlerim" />
+
+        <item
+            android:id="@+id/nav_insulin_saatlerim"
+            android:icon="@drawable/ic_colorize_black_48dp"
+            android:title="@string/insulin_saatlerim" />
+        <item
+            android:id="@+id/nav_ilac_saatlerim"
+            android:icon="@drawable/ic_link_black_48dp"
+            android:title="@string/ilac_saatlerim" />
+
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_besin_tablosu"
+                android:icon="@drawable/ic_assignment_black_48dp"
+                android:title="Besin Tablosu" />
+            <item
+                android:id="@+id/nav_faydali_bilgiler"
+                android:icon="@drawable/ic_import_contacts_black_48dp"
+                android:title="Faydalı Bilgiler" />
+        </menu>
+    </item>
+
+    <item android:title="Hesap">
+        <menu>
+            <item
+                android:id="@+id/nav_ayarlar"
+                android:icon="@drawable/ic_settings_black_48dp"
+                android:title= "Ayarlar" />
+            <item
+                android:id="@+id/nav_cikisYap"
+                android:icon="@drawable/ic_exit_to_app_black_48dp"
+                android:title="Oturumu Kapat" />
+        </menu>
+    </item>
+
+</menu>

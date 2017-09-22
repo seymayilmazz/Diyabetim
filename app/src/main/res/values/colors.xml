@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="colorRequiredField">#d41010</color>
+    <color name="colorNotRequiredField">#d4a310</color>
+    <color name="colorAutoFillField">#0569b6</color>
+    <color name="colorText">#176bab</color>
+
+    <color name="colorActionMode">#737473</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorSelection">#7bb9b8b8</color>
+</resources>

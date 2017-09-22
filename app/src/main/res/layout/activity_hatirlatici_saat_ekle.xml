@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    >
+
+        <include layout="@layout/normal_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Not"
+            android:textColor="#222"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/editNote"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            android:hint="Hatırlatıcı için notunuzu girin"
+            android:inputType="text|textMultiLine"
+            android:gravity="top">
+            <requestFocus/>
+        </EditText>
+
+</LinearLayout>

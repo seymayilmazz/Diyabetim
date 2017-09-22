@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.SekerOlcumActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+        <include
+            android:id="@+id/olcum_degeri"
+            layout="@layout/input_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <include
+            android:id="@+id/olcum_tipi"
+            layout="@layout/input_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <include
+            android:id="@+id/olcum_tarih"
+            layout="@layout/input_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <include
+            android:id="@+id/olcum_saat"
+            layout="@layout/input_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <include
+            android:id="@+id/olcum_yemek_saati"
+            layout="@layout/input_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Şeker Ölçüm Analizi"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="#333"
+            />
+
+        <TextView
+            android:id="@+id/olcum_analiz_deger"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- mg/dL"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textColor="#054c8b"
+            />
+
+        <TextView
+            android:id="@+id/olcum_analiz_yorum"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seker_olcum_analiz_yapilamadi"
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:textColor="#ea561f"
+            />
+
+        <TextView
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İdeal olan açlık kan şekeri 100 mg/dL'nin altında, tokluk kan şekeri ise 2.saat 140 mg/dL'nin altında olmalıdır."
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:textColor="#c2130d"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
